@@ -1,81 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A new initiative for creating tools to grow faith.">
-    <meta name="author" content="Drew Johnston">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/img/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-    <style type="text/css">
-        @font-face {
-            font-family: "Open Sans";
-            src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
-        }
-        body { 
-            font-family: "Open Sans", Helvetica, Arial, sans-serif;
-        }
-    </style>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Church Work builds thoughtful software for churches, including Church Directory and Church Camp."
+    />
+    <meta name="author" content="Church Work LLC" />
+    <meta name="theme-color" content="#f6f1e8" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://church.work/" />
+    <meta property="og:title" content="Church Work" />
+    <meta
+      property="og:description"
+      content="Thoughtful, practical software that helps churches care for each other."
+    />
+    <meta property="og:image" content="https://church.work/img/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Church Work — Better ways to help churches care for each other."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Church Work" />
+    <meta
+      name="twitter:description"
+      content="Thoughtful, practical software that helps churches care for each other."
+    />
+    <meta name="twitter:image" content="https://church.work/img/og.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Church Work — Better ways to help churches care for each other."
+    />
     <title>Church Work</title>
-
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="canonical" href="https://church.work/" />
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" sizes="180x180" />
+    <link rel="icon" href="img/favicons/favicon-32x32.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="img/favicons/favicon-16x16.png" type="image/png" sizes="16x16" />
+    <link rel="icon" href="img/favicons/favicon.ico" sizes="any" />
+    <link rel="manifest" href="img/favicons/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&amp;family=Inter:wght@400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.usefathom.com/script.js" data-site="RSKURLSF" defer></script>
-</head>
-
-<body class="bg-gray-50">
-
-    <div class="flex-1 mt-4 md:mt-32 px-8 md:px-0">
-
-        <div class="max-w-2xl mx-auto my-24">
-            <div class="col-10 offset-1 col-md-6 offset-md-3">
-                <img src="img/cw_logo_v2_tall.svg" class="img-fluid" alt="Church Work Logo">
-            </div>
+  </head>
+  <body data-file-root=".">
+    <main class="site-shell">
+      <div class="hero">
+        <div class="brand-panel">
+          <span class="brand-kicker">Grown for church life</span>
+          <div class="brand-frame">
+            <img
+              class="brand-mark"
+              src="img/logo_cw_v3_2026.svg"
+              alt="Church Work"
+              width="6390"
+              height="2509"
+            />
+          </div>
+          <span class="brand-location">Katy, Texas</span>
         </div>
-        
-        <div class="text-center col-10 offset-1 col-md-6 offset-md-3" style="font-family: 'Open Sans'">
-            <p class="mb-6 bg-white border border-gray-500 max-w-md mx-auto rounded-lg p-4">
-                We're building the tools to help your congregation stay connected and grow in the faith.
+
+        <div class="content">
+          <section class="intro" aria-labelledby="intro-title">
+            <p class="eyebrow"><i aria-hidden="true"></i>Software for church life</p>
+            <h1 id="intro-title">
+              Better ways to help churches
+              <em>care for each other.</em>
+            </h1>
+            <p class="lede">
+              We build thoughtful, practical tools that help congregations stay
+              connected and grow in faith.
             </p>
-            <p class="mb-8">
-                A technology solutions business &dash; grown from experience &dash; in Katy, Texas.
-            </p>
-            <a class="px-4 py-2 bg-transparent hover:bg-blue-50 text-blue-600 border border-blue-600 rounded" href="mailto:hello@church.work">
-                Contact Us
-            </a>
-        </div>
-        
-        <hr class="my-12 max-w-lg mx-auto border-gray-300">
-        
-        <div class="flex flex-row justify-center max-w-xl space-x-12 mx-auto">
-            <a class="h-28 flex items-center justify-center border border-gray-300 hover:bg-white shadow-lg hover:shadow-xl rounded px-12 py-8" href="https://church.directory?ref=church.work">
-                <img class="w-48" src="img/cd_logo_v2.svg" />
-            </a>
-            <a class="h-28 flex items-center justify-center border border-gray-300 hover:bg-white shadow-lg hover:shadow-xl rounded px-12 py-8" href="https://churchcamp.app?ref=church.work">
-                <img class="w-48" src="img/church-camp-logo_2025-5.svg" />
-            </a>
-        </div>
+          </section>
 
-        <div class="mt-12 text-center">
-            <span class="text-gray-700 text-sm">&copy; <span id="currentYear"><script>document.write(new Date().getFullYear());</script></span> Church Work LLC</span>
-        </div>
+          <section class="products" aria-label="Church Work products">
+            <a class="product-card" href="https://church.directory/?ref=church.work">
+              <p class="product-meta"><span>01</span>Available now</p>
+              <h2>Church Directory</h2>
+              <p>
+                One place for your directory, communication, calendars,
+                groups, and more.
+              </p>
+              <span class="product-link">
+                Explore Church Directory <i aria-hidden="true">↗</i>
+              </span>
+              <span class="product-accent" aria-hidden="true"></span>
+            </a>
 
-        <div class="mt-2 mb-24">
-            <p class="text-sm text-center text-gray-500">
-                <a href="/terms-of-service" class="hover:text-blue-500">Terms of Service</a> &nbsp;|&nbsp; <a href="/privacy-policy" class="hover:text-blue-500">Privacy Policy</a>
-            </p>
+            <a
+              class="product-card product-card--warm"
+              href="https://churchcamp.app/?ref=church.work"
+            >
+              <p class="product-meta"><span>02</span>Coming 2026</p>
+              <h2>Church Camp</h2>
+              <p>
+                Registration, camp management, safety records, memories, and
+                family sharing—in one place.
+              </p>
+              <span class="product-link">
+                Explore Church Camp <i aria-hidden="true">↗</i>
+              </span>
+              <span class="product-accent" aria-hidden="true"></span>
+            </a>
+          </section>
         </div>
+      </div>
+    </main>
 
-    </div>
-    
-</body>
+    <footer class="site-footer">
+      <p>&copy; <span id="current-year"></span> Church Work LLC</p>
+      <nav aria-label="Company links">
+        <a href="mailto:hello@church.work">Contact</a>
+        <a href="/terms-of-service/">Terms of Service</a>
+        <a href="/privacy-policy/">Privacy Policy</a>
+      </nav>
+    </footer>
+
+    <script>
+      document.getElementById("current-year").textContent = new Date().getFullYear();
+      if (window.location.protocol === "file:") {
+        const fileRoot = document.body.dataset.fileRoot;
+        document.querySelectorAll('a[href^="/"]').forEach((link) => {
+          const path = link.getAttribute("href").replace(/^\/+|\/+$/g, "");
+          link.href = path ? `${fileRoot}/${path}/index.htm` : `${fileRoot}/index.htm`;
+        });
+      }
+    </script>
+  </body>
 </html>
-
